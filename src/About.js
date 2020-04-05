@@ -10,7 +10,7 @@ import {
 function About(){
   return(
      <p>
-    My name is James Ramirez
+    My name is James Ramirez, and I am a CGI student who also works in web programming.
     </p>
   )
     
