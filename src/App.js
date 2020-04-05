@@ -1,26 +1,54 @@
-import React from 'react';
-import logo from './Tiger.jpg';
-import './App.css';
+import React from "react";
+import "./App.css"
+import Nav from "./Nav";
+import About from "./About";
+import Projects from "./Projects";
+import ContactMe from "./ContactMe";
 
-function App() {
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+
+export default function App() {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          My name is James and I am going to master REACT!!
-        </p>
-        <a
-          className="App-link"
-          href="https://github.com/Jramire16"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Check me out!
-        </a>
-      </header>
-    </div>
-  );
+    <Router>
+      <div className="App">
+        <Nav />
+        <Switch>
+            <Route path="/about" component={About}/>
+            <Route path="/projects" component={Projects}/>
+            <Route path="/contactme" component={ContactMe}/>
+            <Route path="/" exact component={Home}/>
+        </Switch>
+        
+      </div>
+    </Router>
+    );
 }
 
-export default App;
+const Home = () => (
+  <div>
+    <h1>Home Page</h1>
+  </div>
+)
+// function Home() {
+//   return <h2>Home</h2>;
+// }
+
+// function About() {
+//   return <h2>About</h2>;
+  
+// }
+
+// function Projects() {
+//   return <h2>Projects</h2>;
+// }
+
+// function ContactMe(){
+//   return <h2>Contact Info</h2>
+// }
+
