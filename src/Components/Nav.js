@@ -10,7 +10,7 @@ function Nav(){
 
     return(
       <nav>
-        <h1>James Ramirez Website</h1>
+        <h1>James Ramirez Resume</h1>
         <ul className="nav-links">
             <Link style={navStyle} to="/home">
             <li>Home</li>
