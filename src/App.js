@@ -1,9 +1,10 @@
 import React from "react";
-import "./App.css"
-import Nav from "./Nav";
-import About from "./About";
-import Projects from "./Projects";
-import ContactMe from "./ContactMe";
+import './App.css'
+import Home from "./Components/Home";
+import Nav from "./Components/Nav";
+import About from "./Components/About";
+import Projects from "./Components/Projects";
+import ContactMe from "./Components/ContactMe";
 
 import {
   BrowserRouter as Router,
@@ -30,25 +31,4 @@ export default function App() {
     );
 }
 
-const Home = () => (
-  <div>
-    <h1>Home Page</h1>
-  </div>
-)
-// function Home() {
-//   return <h2>Home</h2>;
-// }
-
-// function About() {
-//   return <h2>About</h2>;
-  
-// }
-
-// function Projects() {
-//   return <h2>Projects</h2>;
-// }
-
-// function ContactMe(){
-//   return <h2>Contact Info</h2>
-// }
 

@@ -1,5 +1,5 @@
 import React from "react";
-import './App.css'
+import '../App.css'
 import {
   BrowserRouter as Router,
   Switch,
@@ -7,11 +7,16 @@ import {
   Link
 } from "react-router-dom";
 
-function Home(){
-    return(
-      <h1>Home</h1>
-    )
-}
+const Home = () => (
+  <div className="home">
+        <h1>Home Page</h1>
+
+
+
+    </div>
+)
+    
+   
 
 
 
