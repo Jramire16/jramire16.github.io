@@ -8,7 +8,7 @@ import {
 } from "react-router-dom";
 
 const ContactMe = () =>(
-  <div>
+  <div className="contactMe">
       <h1>You can contact me via my email which is jramire687@gmail.com</h1>
   </div>
     
