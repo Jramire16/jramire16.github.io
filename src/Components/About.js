@@ -46,9 +46,15 @@ const About = () => (
         <li>Computer Science coding and Graphic Design related work. </li>
         <li>Worked on using programs/languages such as SQL, Eclipse(Java), Dreamweaver(Javascript, HTML, CSS), REACT(JSX), Photoshop, Illustrator, Cinema4D, After Effects, Adobe Premiere Pro.</li>
         </ul>
+        <br></br>
+
+        Hobbies
+        <ul><h2>______________________________________________________________________________________________________________________________</h2></ul>
+        <p>Some of my hobbies are art being one of them and building/fixing computers is the other.</p>
         </p>
 
     </p>
+    
   </div>
 )
  

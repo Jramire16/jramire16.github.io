@@ -6,27 +6,34 @@ import { Link } from "react-router-dom";
 function Nav(){
     const navStyle = {
         color: 'black'
+        
     };
 
     return(
-      <nav>
-        <h1>James Ramirez Resume</h1>
+        
+            <nav className="a:link">
+        <Link className="a:link" style={navStyle} to="/home">
+            <h1>James Ramirez Resume</h1>
+        </Link>     
         <ul className="nav-links">
-            <Link style={navStyle} to="/home">
+            <Link className="button"  to="/home">
             <li>Home</li>
             </Link>
-            <Link style={navStyle} to="/about">
+            <Link className="button" to="/about">
                 <li>About</li>
             </Link>
-            <Link style={navStyle} to="/projects">
+            <Link className="button" to="/projects">
                 <li>Projects</li>
             </Link>
-            <Link style={navStyle} to="/contactme">
+            <Link className="button" to="/contactme">
                 <li>Contact Info</li>
             </Link>
                   
         </ul>
-      </nav>
+        </nav>
+        
+      
+      
     )
 }
 
