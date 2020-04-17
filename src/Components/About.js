@@ -20,7 +20,6 @@ const About = () => (
 
 
 
-
     <h1>Skills:</h1>
     <ul><h2>______________________________________________________________________________________________________________________________</h2></ul>
     <ul>
@@ -33,7 +32,9 @@ const About = () => (
 
 
 
-    <h1>Education</h1>
+
+
+    <h1>Education:</h1>
     <ul><h2>______________________________________________________________________________________________________________________________</h2></ul>
         <p>
         Bachelor of Science Degree: Computer Graphics Imaging (CGI), Current 4 years. 
@@ -48,7 +49,12 @@ const About = () => (
         </ul>
         <br></br>
 
-        Hobbies
+
+
+
+
+
+        <h1>Hobbies:</h1>
         <ul><h2>______________________________________________________________________________________________________________________________</h2></ul>
         <p>Some of my hobbies are art being one of them and building/fixing computers is the other.</p>
         </p>

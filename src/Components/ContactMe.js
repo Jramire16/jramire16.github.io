@@ -9,7 +9,7 @@ import {
 
 const ContactMe = () =>(
   <div className="contactMe">
-      <h1>You can contact me via my email which is jramire687@gmail.com</h1>
+      <h1>I can be contacted via my email which is jramire687@gmail.com</h1>
   </div>
     
 )
