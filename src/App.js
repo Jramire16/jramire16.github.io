@@ -1,26 +1,34 @@
-import React from 'react';
-import logo from './Tiger.jpg';
-import './App.css';
+import React from "react";
+import './App.css'
+import Home from "./Components/Home";
+import Nav from "./Components/Nav";
+import About from "./Components/About";
+import Projects from "./Components/Projects";
+import ContactMe from "./Components/ContactMe";
 
-function App() {
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+
+export default function App() {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          My name is James and I am going to master REACT!!
-        </p>
-        <a
-          className="App-link"
-          href="https://github.com/Jramire16"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Check me out!
-        </a>
-      </header>
-    </div>
-  );
+    <Router>
+      <div className="App">
+        <Nav />
+        <Switch>
+            <Route path="/about" component={About}/>
+            <Route path="/projects" component={Projects}/>
+            <Route path="/contactme" component={ContactMe}/>
+            <Route path="/" component={Home}/>
+        </Switch>
+        
+      </div>
+    </Router>
+    );
 }
 
-export default App;
+
