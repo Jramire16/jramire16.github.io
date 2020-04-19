@@ -20,10 +20,11 @@ nav{
   min-height: 10vh;
   background: skyblue;
   color: black;
+  width: 100%
 }
 
 .nav-links{
-  width: 90%;
+  width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: left;
@@ -62,19 +63,22 @@ nav{
   
 }
 .home{
-  display: flex;
-  justify-content: space-around;
-  text-align: center;
+  display: center;
   color: black;
+  max-width: 100%;
   
 }
 .gallery{
-  display: flex;
+  border: 2px;
+  display: row;
   justify-content: space-around;
   border-radius: 5px 10px;
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom:auto;
-  width: 30%;
+  width: 50%;
   
+}
+.video{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  height: auto;
 }
