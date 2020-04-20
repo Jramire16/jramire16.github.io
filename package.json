@@ -1,5 +1,5 @@
 {
-  "homepage": "jramire16.github.io",
+  "homepage": "http://Jramire16.github.io/jramire16.github.io",
   "name": "jramire16.github.io",
   "version": "0.1.0",
   "private": true,
@@ -18,7 +18,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "jramire16.github.io -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -35,4 +35,5 @@
       "last 1 safari version"
     ]
   }
+ 
 }
