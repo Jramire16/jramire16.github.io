@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9f9fddb700beeac3656de64b886c0443",
+    "revision": "5693bec20b1ea20400ad18f92de8e6b5",
     "url": "/jramire16.github.io/index.html"
   },
   {
-    "revision": "f284da588df38b7bb934",
+    "revision": "327fa96d809723969403",
     "url": "/jramire16.github.io/static/css/main.ad9142c1.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/jramire16.github.io/static/js/2.bd8371e5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f284da588df38b7bb934",
-    "url": "/jramire16.github.io/static/js/main.5b8033aa.chunk.js"
+    "revision": "327fa96d809723969403",
+    "url": "/jramire16.github.io/static/js/main.b41f434e.chunk.js"
   },
   {
     "revision": "c5ceed5e54b6841e68b2",
