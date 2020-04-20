@@ -26,12 +26,14 @@ const Projects = () => (
             <a href="https://github.com/" target="_blank" className="button">My github</a>
           <h1>Artwork</h1>
             <div>
-              <img src={Study} className="gallery" />
-              <img src={Study2} className="gallery"/>
               <img src={Study3} className="gallery"/>
-              <img src={Art1} className="gallery"/>
               <img src={Art2} className="gallery"/>
               <img src={Art3} className="gallery"/>
+              <img src={Study} className="gallery" />
+              <img src={Study2} className="gallery"/>
+              <br></br>
+              <img src={Art1} className="gallery"/>
+              
               
             </div>
             <br />
