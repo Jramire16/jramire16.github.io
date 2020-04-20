@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5693bec20b1ea20400ad18f92de8e6b5",
+    "revision": "6a4b86b0cdafccdd3ed7962aba427d0f",
     "url": "/jramire16.github.io/index.html"
   },
   {
-    "revision": "327fa96d809723969403",
+    "revision": "f284da588df38b7bb934",
     "url": "/jramire16.github.io/static/css/main.ad9142c1.chunk.css"
   },
   {
-    "revision": "1d434038c9c210eb4332",
-    "url": "/jramire16.github.io/static/js/2.bd8371e5.chunk.js"
+    "revision": "05d7e821d2239a621932",
+    "url": "/jramire16.github.io/static/js/2.0c41ae97.chunk.js"
   },
   {
     "revision": "928d7b5eb39d16fe9a880722c974b51e",
-    "url": "/jramire16.github.io/static/js/2.bd8371e5.chunk.js.LICENSE.txt"
+    "url": "/jramire16.github.io/static/js/2.0c41ae97.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "327fa96d809723969403",
-    "url": "/jramire16.github.io/static/js/main.b41f434e.chunk.js"
+    "revision": "f284da588df38b7bb934",
+    "url": "/jramire16.github.io/static/js/main.5b8033aa.chunk.js"
   },
   {
     "revision": "c5ceed5e54b6841e68b2",
